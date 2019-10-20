@@ -210,10 +210,13 @@
     <Compile Include="Migrations\201910191855123_InitialModel.Designer.cs">
       <DependentUpon>201910191855123_InitialModel.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201910201916410_RemovedCustomers.cs" />
+    <Compile Include="Migrations\201910201916410_RemovedCustomers.Designer.cs">
+      <DependentUpon>201910201916410_RemovedCustomers.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Chore.cs" />
-    <Compile Include="Models\Customer.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\Registry.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
@@ -306,6 +309,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201910191855123_InitialModel.resx">
       <DependentUpon>201910191855123_InitialModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201910201916410_RemovedCustomers.resx">
+      <DependentUpon>201910201916410_RemovedCustomers.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
